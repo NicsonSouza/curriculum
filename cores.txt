@@ -1,0 +1,5 @@
+#FF5311  - laranja
+#1177FF - cor base
+#0036B2 - cor base escura
+#171E26 - preto
+#E4E8ED - branco

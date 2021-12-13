@@ -1,0 +1,26 @@
+
+@mixin titulo-grande{
+    font-size: 1em;
+    line-height: 1;
+    font-weight: 700;
+    color: $cor-base-escura;
+    font-family: "Montserrat", sans-serif;
+}
+
+.descricao{
+    padding: 32px 80px;
+}
+.texto{
+    @include titulo-grande;
+}
+.subtitulo{
+    color: var(--cor-complementar);
+}
+footer{
+    background-color: var(--cor-base);
+    height: 100px;
+    padding: 50px 0;
+    text-align: center;
+    color: var(--cor-branco);
+    box-shadow: 4px 0 3px 3px rgba(0, 0, 0, 0.2);
+}

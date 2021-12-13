@@ -1,0 +1,16 @@
+$cor-base: #1177FF;
+$cor-complementar: #FF5311;
+$cor-base-escura: #0036B2;
+$cor-preto: #171E26;
+$cor-branco: #E4E8ED;
+
+$border-1: 5px solid rgba(255, 255, 255, .4);
+$shadow-1: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+@mixin titulo-grande{
+    font-size: 1em;
+    line-height: 1;
+    font-weight: 700;
+    color: $cor-base-escura;
+    font-family: "Montserrat", sans-serif;
+}
